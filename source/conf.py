@@ -34,12 +34,14 @@ release = '1'
 
 # -- Options for HTML output --------------------------------------------------
 
-html_theme = 'default'
-#html_theme_options = {}
+html_theme = 'sphinxdoc'
+html_theme_options = {
+  'nosidebar': False,
+}
 #html_theme_path = []
 #html_title = None
 #html_short_title = None
-#html_logo = None
+html_logo = '_static/cti200.png'
 #html_favicon = None
 html_static_path = ['_static']
 #html_last_updated_fmt = '%b %d, %Y'
