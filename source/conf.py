@@ -32,8 +32,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 default_role = 'math'
 pygments_style = 'sphinx'
-version = '1'
-release = '1'
+version = ''
+release = ''
 
 
 # -- Options for HTML output --------------------------------------------------
