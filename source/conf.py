@@ -22,6 +22,10 @@ author = u'Roberto Bonvallet'
 # que deba ser ignorado por Sphinx.
 exclude_patterns = []
 
+# Lenguaje que se usará la mayor parte del tiempo
+# para mostrar código.
+highlight_language = 'c'
+
 copyright = u'2012, ' + author
 templates_path = ['_templates']
 source_suffix = '.rst'
