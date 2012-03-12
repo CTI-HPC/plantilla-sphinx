@@ -19,5 +19,6 @@ Contenidos
 
    imagenes
    codigo
+   ecuaciones
 
 
