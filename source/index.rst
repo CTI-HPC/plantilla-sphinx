@@ -18,5 +18,6 @@ Contenidos
    :maxdepth: 2
 
    imagenes
+   codigo
 
 
