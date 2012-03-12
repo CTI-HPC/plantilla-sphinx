@@ -6,7 +6,7 @@ Cómo usar la plantilla
 Supongamos que queremos crear un repo llamado ``mi-curso`` basado en la plantilla,
 y que alojaremos en el servidor del CTI-HPC. ::
 
-    $ git clone -o template https://github.com/rbonvall/plantilla-sphinx-cti-hpc mi-curso
+    $ git clone -o ght https://github.com/CTI-HPC/plantilla-sphinx mi-curso
     $ cd mi-curso
     $ git checkout -b master
     $ git remote add origin git@git.hpc.cl/mi-curso.git
