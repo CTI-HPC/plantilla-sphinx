@@ -18,12 +18,10 @@ language = 'es'
 project = u'Plantilla Sphinx CTI-HPC'
 author = u'Roberto Bonvallet'
 
-# Incluir aquí cualquier archivo (o patrón de archivos)
-# que deba ser ignorado por Sphinx.
+# Incluir aquí cualquier archivo (o patrón de archivos) que deba ser ignorado por Sphinx.
 exclude_patterns = []
 
-# Lenguaje que se usará la mayor parte del tiempo
-# para mostrar código.
+# Lenguaje que se usará la mayor parte del tiempo para mostrar código.
 highlight_language = 'c'
 
 copyright = u'2012, ' + author
