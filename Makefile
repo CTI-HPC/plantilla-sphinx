@@ -6,7 +6,7 @@ ALLSPHINXOPTS = -d $(BUILDDIR)/doctrees $(SPHINXOPTS) source
 OPEN = xdg-open
 DEPLOYDIR = rbonvall@hpc.cl:public_html/plantilla
 
-.PHONY: all open help clean html epub latex latexpdf linkcheck
+.PHONY: all open help clean html epub latex latexpdf linkcheck tikz
 
 all: html
 
@@ -26,7 +26,10 @@ help:
 clean:
 	-rm -rf $(BUILDDIR)/*
 
-html:
+tikz:
+	@make -C source/tikz
+
+html: tikz
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
