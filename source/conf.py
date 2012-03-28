@@ -35,8 +35,8 @@ release = ''
 
 
 # -- Options for HTML output --------------------------------------------------
-
-html_theme = 'sphinxdoc'
+html_theme_path = ['_theme']
+html_theme = 'cti'
 html_theme_options = {
   'nosidebar': False,
 }
